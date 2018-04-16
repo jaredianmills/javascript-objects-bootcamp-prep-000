@@ -2,5 +2,5 @@ var playlist = {Radiohead: 'Paranoid Android', ["Aphex Twin"]: "Xtal", Autechre:
 
 function updatePlaylist(playlist, artistName, songTitle) {
   playlist[artistName] = songTitle;
-  return playlist
+  return playlist;
 }
