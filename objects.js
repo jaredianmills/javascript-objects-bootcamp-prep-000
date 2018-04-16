@@ -1,4 +1,4 @@
-var playlist = {Radiohead: 'Paranoid Android', ["Aphex Twin"]: "Xtal", Autechre: "Pen Expers"};
+var playlist = {Radiohead: 'Paranoid Android', AFX: "Analogue Bubblebath", Autechre: "Pen Expers"};
 
 function updatePlaylist(playlist, artistName, songTitle) {
   playlist[artistName] = songTitle;
